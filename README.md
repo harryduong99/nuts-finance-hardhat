@@ -47,5 +47,16 @@ Thanks `typechain` package for automatically generate `Typescript` type declarat
 
 - Since there is no specific actions in the constructor, no need test cases for the Deployment action
 - `owner` state variable has been declared but it is not used anywhere in this contract, then we temporarily ignore it when writing test.
-- There are two functions inside the contract, which are `addAuthUser` and `setImportant`. Both of them has the function types indicate that function can be used when contract was deployed (`public` and `external`) => I will write test for both them at this moment.
+- There are two functions inside the contract, which are `addAuthUser` and `setImportant`. Both of them has the function types indicate that function can be used when contract was deployed (`public` and `external`) => I will write test for both of them at this moment.
 - Test coverage is important but it still just a number, it is more important to follow the business logic (what functionality does) when writing test.
+
+#### Result
+
+1. Run test
+![Storage contract testing](https://github.com/harryduong99/nuts-finance-hardhat/assets/33088334/74eec786-7012-4964-9736-b649c783717e "")
+
+2. Test Coverage
+![Storage contract testing](https://github.com/harryduong99/nuts-finance-hardhat/assets/33088334/74a250a4-43cd-4864-8f31-93c522df817a "")
+
+
+
