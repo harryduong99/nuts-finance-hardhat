@@ -60,3 +60,4 @@ Thanks `typechain` package for automatically generate `Typescript` type declarat
 
 
 
+*Small notice*: it is difference between `tx.origin` and `msg.sender`

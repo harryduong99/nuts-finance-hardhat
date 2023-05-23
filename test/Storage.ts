@@ -67,7 +67,7 @@ describe("Storage", () => {
         // the `important` state is set as private, then it is unable to access it from outside
         // as far as I know, we can verify this if the contract has a `get` method for `important` state
         // but is this the whole contract? or Azat just gave me a piece of it?
-        // I just temporarily leave this case here, modifying the functionality is definitely not the way to write unit test.
+        // I just temporarily leave this case here, modifying the functionality is definitely not the way to write unit test (for this scenario).
       });
     });
   });
